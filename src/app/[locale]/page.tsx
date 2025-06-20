@@ -1,9 +1,32 @@
+import {Locale, useTranslations} from 'next-intl';
+import {use} from 'react';
 import Image from "next/image";
+import Projects from "@/ui/projects/projects";
+import Header from "@/ui/header/header";
+import  Navbar  from "@/ui/navbar/navbar";
+import { setRequestLocale } from 'next-intl/server';
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+type Props = {
+ params:Promise<{ locale: Locale}>;
+};
+
+
+export default function Home ({params}: Props) {
+
+  const {locale} = use(params);
+  setRequestLocale(locale);
+  
+  const t= useTranslations('Home');
+
+ 
+return (
+   
+
+    <div className="w-full">
+
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+        <Header/>
+        <Projects/>
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -14,7 +37,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
+            {t("TextoHome")} 
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
               src/app/page.tsx
             </code>

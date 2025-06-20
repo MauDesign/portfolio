@@ -1,0 +1,19 @@
+{
+"Home":{
+    "TextoHome": "Texto aleatoriao con fines de pruebas "
+},
+"HeaderHero":{
+    "title":"El UX Design no es solo hacer experiencias, es enteder a las personas para crear experiencias unicas.",
+    "autor": "Mauricio Casado",
+    "frase": "Grandes cosas se hacen por una serie de pequeñas cosas reunidas.",
+    "f-autor": "Vincent Van Gogh"
+    },
+
+"NavbarLinks": {
+    "home":"Inicio",
+    "about":"Sobre mi",
+    "services":"Servicios",
+    "portfolio":"Portafolio",
+    "contact":"ConContacto"
+    }
+}

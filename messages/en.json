@@ -1,0 +1,20 @@
+{
+"Home":{
+    "TextoHome": "This is a ramdome Text for  test purpose"
+},
+"HeaderHero":{
+    "title": "UX Design isn't just about crafting experiences; it's about understanding people to create truly unique experiences.",
+    "autor": "Mauricio Casado",
+    "frase": "Great things are done by a series of small things brought together.",
+    "f-autor": "Vincent Van Gogh"
+
+},
+"NavbarLinks": {
+    "home":"Home",
+    "about":"About",
+    "services":"Services",
+    "portfolio":"Portfolio",
+    "contact":"Contact"
+}
+
+}
