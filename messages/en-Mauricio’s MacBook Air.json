@@ -38,34 +38,6 @@
     "alt6": "Tailored Software Design ",
     "tp6": "Tailored Software Design ",
     "descpro6":"Experienced software developer "
-},
-"Skills":{
-     "buttonText":"Learn more",
-    "titleS1":"Ux/UI Design",
-    "descS1":"I design intuitive user experiences and aesthetic user interfaces. My focus is on usability, accessibility, and effective problem-solving through a user-centered design approach.",
-     "titleS2":"Digital Marketing",
-    "descS2":"We accelerate your online growth. Our digital marketing service is designed to help you attract more clients, enhance your brand's visibility, and convert website visitors into sales, leveraging proven strategies across SEO, SEM, social media, and content.",
-    "titleS3":"Digital Transformation Consulting",
-    "descS3":"Accelerate your digital transformation. We offer strategic consulting to help businesses modernize operations, enhance customer engagement, and unlock new value through technology."
-},
-"Contact":{
-    "title":"Contact me",
-    "descCont":"If you have any questions about my experience or services, please get in touch and I'll be happy to help you.",
-    "telCont":"Telephone",
-    "emailCont":"E-mail",
-    "locationCont":"Location",
-    "titleForm":"Send a Message"
-},
-"ContactForm":{
-    "name":"Name",
-    "nameholder":"Jhon Doe",
-    "subject":"Subject",
-    "email":"E-mail",
-    "emailholder":"youremail@domain.com",
-    "message":"Message",
-    "subjectholder":"Message Subject",
-    "submit":"Send"
 }
 
 }
-

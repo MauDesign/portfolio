@@ -3,7 +3,7 @@
     "TextoHome": "Texto aleatoriao con fines de pruebas "
 },
 "HeaderHero":{
-    "title":"El UX Design no es solo hacer experiencias, es enteder a las personas para crear experiencias unicas.",
+    "title":"En UX, la clave no es solo fabricar experiencias, sino empatizar con las personas para forjar momentos verdaderamente excepcionales.",
     "autor": "Mauricio Casado",
     "frase": "Grandes cosas se hacen por una serie de pequeñas cosas reunidas.",
     "f-autor": "Vincent Van Gogh"
@@ -14,6 +14,56 @@
     "about":"Sobre mi",
     "services":"Servicios",
     "portfolio":"Portafolio",
-    "contact":"ConContacto"
-    }
+    "contact":"Contacto"
+    },
+"Projects":{
+    "titlep":"Proyectos"
+},
+"ProjectsList":{
+    "alt1": "Mar Holidays Travel Network",
+    "tp1": "Mar Holidays Travel Network Es",
+    "descpro1":"Creé el diseño y la experiencia de usuario para una plataforma web intuitiva, facilitando la reserva de hoteles, la organización de traslados y la búsqueda de experiencias de viaje inolvidables.",
+    "alt2": "Padelpals",
+    "tp2": "Padelpals",
+    "descpro2":"Diseñé una aplicación móvil dedicada a mejorar la experiencia de partidos de pádel mediante un control intuitivo y seguimiento de puntuaciones. Este proyecto se centró en crear una interfaz limpia y funcional para que los jugadores gestionaran sus partidos sin esfuerzo.",
+     "alt3": "Web Designe",
+    "tp3": "Diseño Web",
+    "descpro3":"",
+    "alt4": "ANDANAC Administracion de proyecto",
+    "tp4": "ANDANAC Administracion de proyecto",
+    "descpro4":"",
+    "alt5": "Diseño de información",
+    "tp5": "Diseño de información",
+    "descpro5":"",
+    "alt6": "Diseño de información",
+    "tp6": "Diseño de información",
+    "descpro6":""
+},
+"Skills":{
+    "buttonText":"Saber más",
+    "titleS1":"Diseño UX UI",
+    "descS1":"Diseño de experiencias de usuario intuitivas y interfaces de usuario estéticas. Enfocado en la usabilidad, accesibilidad y resolución de problemas a través del diseño centrado en el usuario.",
+    "titleS2":"Marketing digital",
+    "descS2":"Impulsamos tu crecimiento online. Nuestro servicio de marketing digital te ayuda a atraer más clientes, aumentar la visibilidad de tu marca y convertir visitantes en ventas, utilizando estrategias probadas en SEO, SEM, redes sociales y contenido.",
+    "titleS3":"Consultoria en transformacioón digital.",
+    "descS3":"Acelera tu transformación digital. Ofrecemos consultoría estratégica para ayudar a las empresas a modernizar sus operaciones, mejorar la interacción con los clientes y generar nuevo valor a través de la tecnología."
+},
+"Contact":{
+    "title":"Contactame.",
+    "descCont":"Si tienes alguna dude de mi experiencia o servicios ponte en contacto y con gusto te ayudare.",
+    "telCont":"Teléfono",
+    "emailCont":"Correo",
+    "locationCont":"LocaUbicación",
+    "titleForm":"Mandame un mensaje"
+},
+"ContactForm":{
+    "name":"Nombre",
+    "subject":"Asunto",
+    "email":"Correo",
+    "message":"Mensaje",
+    "submit":"Enviar",
+    "nameholder":"Jhon Doe",
+    "emailholder":"youremail@domain.com",
+    "subjectholder":"Asunto del mensaje"
+}
 }

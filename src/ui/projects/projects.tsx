@@ -1,49 +1,86 @@
 'use client'
-import React from "react";
 import Cards from "@/ui/cards/cards";
+import { useTranslations } from 'next-intl';
 
+import React from "react";
 
-const projectsList = [
-  {
-    id: "1",
-    src: "/img/MHTN_MauricioCasado.jpg", // Imagen existente
-    alt: "Marholidays Travel Network",
-    title: "Marholidays Travel Network",
-    description: "Diseño UX/UI para una plataforma de reserva de hoteles rxperiencias y tralados B2B.",
-    href: "/projects/booker-hotelero", // Enlace de ejemplo
-  },
-  {
-    id: "2",
-    src: "/img/padelpals_MUC_MauricioCasado.jpg", // Nueva imagen de ejemplo 1
-    alt: "Descripción del Proyecto Ejemplo 1",
-    title: "Padelpals",
-    description: "Aplicacion movil para administrar partidos depadel.",
-    href: "/projects/ejemplo-1",
-  },
-  {
-    id: "3",
-    src: "/img/project-example-2.png", // Nueva imagen de ejemplo 2
-    alt: "Descripción del Proyecto Ejemplo 2",
-    title: "Plataforma Beta",
-    description: "Interfaz web para la gestión de datos complejos.",
-    href: "/projects/ejemplo-2",
-  },
-  {
-    id: "4",
-    src: "/img/project-example-3.svg", // Nueva imagen de ejemplo 3
-    alt: "Otro Proyecto UX/UI",
-    title: "Consultoría UX",
-    description: "Mejora de la experiencia de usuario para cliente existente.",
-    href: "/projects/otro-uxui",
-  },
-];
+interface Project {
+    id: string;
+    src: string;
+    alt: string;
+    title: string;
+    description: string;
+    href: string;
+}
+
+interface Props {
+    locale: string;
+}
 
 
 
-export default function Projects() {
+const Projects = ({ locale }: Props) =>{
+    const t = useTranslations("Projects");
+    const tp = useTranslations("ProjectsList");
+    
+
+    const projectsList: Project[] = [
+      {
+          id: "1",
+          src: "/img/MHTN_MauricioCasado.jpg", // Imagen existente
+          alt: tp("alt1"),
+          title: tp("tp1"),
+          description: tp("descpro1"),
+          href: "/pages/projects/marholidays", // Enlace de ejemplo
+        },
+        {
+          id: "2",
+          src: "/img/padelpals_MUC_MauricioCasado.jpg", // Nueva imagen de ejemplo 1
+          alt: "Descripción del Proyecto Ejemplo 1",
+          title: tp("tp2"),
+          description: tp("descpro2"),
+          href: "/projects/ejemplo-2",
+        },
+        {
+          id: "3",
+          src: "/img/MWU_MC.jpg", // Nueva imagen de ejemplo 3
+          alt: tp("alt3"),
+          title: tp("tp3"),
+          description: tp("descpro3"),
+          href: "/projects/otro-uxui",
+        },
+        {
+          id: "4",
+          src: "/img/ANDANAC-Mauriciocasado-437x570.jpg", // Nueva imagen de ejemplo 3
+          alt: tp("alt4"),
+          title: tp("tp4"),
+          description: tp("descpro4"),
+          href: "/projects/otro-uxui",
+        }, 
+        {
+          id: "5",
+          src: "/img/infografias_MC.jpg", // Nueva imagen de ejemplo 3
+          alt: tp("alt5"),
+          title: tp("tp5"),
+          description: tp("descpro5"),
+          href: "/projects/otro-uxui",
+        }, 
+         {
+          id: "6",
+          src: "/img/Aquadrada_MC.jpg", // Nueva imagen de ejemplo 3
+          alt: tp("alt6"),
+          title: tp("tp6"),
+          description: tp("descpro6"),
+          href: "/projects/otro-uxui",
+        }, 
+   
+    ]
+
+
+
   return (
     <div className="w-full mt-5 px-2 sm:px-4 md:px-6"> {/* Padding responsivo para el contenedor */}
-      <h1 className="w-full text-5xl mb-8 text-center sm:text-left">Proyectos</h1>
+      <h1 className="w-full text-5xl mb-8 text-center sm:text-left"> {t("titlep")} </h1>
       {/* Contenedor Masonry: se aplicarán estilos de columna mediante CSS */}
       <div
         className="masonry-container"
@@ -92,3 +129,4 @@ export default function Projects() {
     </div>
     );
 }
+export default Projects;

@@ -2,6 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "daisyui"{
+  themes: light --default, dark --prefersdark;
+}
 
 
 
@@ -21,7 +24,9 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+     --color-primary: oklch(70.4% .14 182.503);
   }
+ 
 }
 
 body {
@@ -29,3 +34,4 @@ body {
   color: var(--foreground);
   font-family: Poiret One, sans-serif;
 }
+ 

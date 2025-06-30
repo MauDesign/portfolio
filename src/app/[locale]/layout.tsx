@@ -1,7 +1,6 @@
 import { NextIntlClientProvider, hasLocale} from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-
 import React from "react";
 import Navbar from '@/ui/navbar/navbar';
 import { Poiret_One, Montserrat_Alternates} from "next/font/google";
@@ -36,10 +35,11 @@ export default async function RootLayout({
   setRequestLocale(locale);
   return (
     <html lang={locale}>
-      <body className={`${poiretone.variable} ${montserrat.variable} antialiased`}>
+      <body className={`${poiretone.variable} ${montserrat.variable} antialiased relative`}>
+        
         <NextIntlClientProvider>
-           <div className="w-5/6 m-auto">
-              <Navbar/>
+           <div className='fixed w-full top-0 z-50'>
+            <Navbar locale={locale} />
           </div>
         {children}
         </NextIntlClientProvider>        

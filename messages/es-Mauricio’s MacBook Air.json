@@ -1,0 +1,36 @@
+{
+"Home":{
+    "TextoHome": "Texto aleatoriao con fines de pruebas "
+},
+"HeaderHero":{
+    "title":"En UX, la clave no es solo fabricar experiencias, sino empatizar con las personas para forjar momentos verdaderamente excepcionales.",
+    "autor": "Mauricio Casado",
+    "frase": "Grandes cosas se hacen por una serie de pequeñas cosas reunidas.",
+    "f-autor": "Vincent Van Gogh"
+    },
+
+"NavbarLinks": {
+    "home":"Inicio",
+    "about":"Sobre mi",
+    "services":"Servicios",
+    "portfolio":"Portafolio",
+    "contact":"Contacto"
+    },
+"Projects":{
+    "titlep":"Proyectos"
+},
+"ProjectsList":{
+    "alt1": "Mar Holidays Travel Network",
+    "tp1": "Mar Holidays Travel Network Es",
+    "descpro1":"Creé el diseño y la experiencia de usuario para una plataforma web intuitiva, facilitando la reserva de hoteles, la organización de traslados y la búsqueda de experiencias de viaje inolvidables.",
+    "alt2": "Padelpals",
+    "tp2": "Padelpals",
+    "descpro2":"Diseñé una aplicación móvil dedicada a mejorar la experiencia de partidos de pádel mediante un control intuitivo y seguimiento de puntuaciones. Este proyecto se centró en crear una interfaz limpia y funcional para que los jugadores gestionaran sus partidos sin esfuerzo.",
+     "alt3": "Web Designe",
+    "tp3": "Diseño Web",
+    "descpro3":"",
+    "alt4": "ANDANAC Administracion de proyecto",
+    "tp4": "ANDANAC Administracion de proyecto",
+    "descpro4":""
+}
+}
