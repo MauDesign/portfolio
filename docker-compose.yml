@@ -1,0 +1,13 @@
+services:
+  portfolio:
+    image: node_mau_portafolio:0.0.0
+    network_mode: host
+    volumes:
+      - ./:/app
+
+  portfolio_prod:
+    extends: portfolio
+    profiles: ["prod"]
+    container_name: portfolio_prod
+    command: >
+      sh -c 'cd /app && npm run build && pm2 start npm --name "Portfolio-Mau" -- start'
