@@ -27,50 +27,41 @@ export default function ContactForm({ locale }: { locale?: string }) {
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // Handle form submission logic here, e.g., send data to an API
-        console.log('Form data submitted:', formData);
-        alert('Thank you for your message!');
-        // Optionally reset the form
-        setFormData({
-            name: '',
-            email: '',
-            subject: '',
-            message: ''
-        });
         setIsSubmitting(true);
         setSubmissionStatus(null);
 
-            try {
-                const response = await fetch('/api/contact', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(formData),
-                });
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
 
-                if (response.ok) {
-                    setSubmissionStatus('success');
-                    setFormData({
-                        name: '',
-                        email: '',
-                        subject: '',
-                        message: ''
-                    })
-                } else {
-                    throw new Error('Fail to send message');
-                }
-            } catch (error) {
-                console.error(error);
-                setSubmissionStatus('error');
-                } finally {
-                setIsSubmitting(false);
-                }
+            if (response.ok) {
+                setSubmissionStatus('success');
+                // Resetear el formulario solo si el envío fue exitoso
+                setFormData({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: ''
+                });
+            } else {
+                throw new Error('Failed to send message');
+            }
+        } catch (error) {
+            console.error(error);
+            setSubmissionStatus('error');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-            <div className="form=control w-full">
+            <div className="form-control w-full">
                 <label htmlFor="name"  className="label"> {t("name")} </label>
                 <input
                     type="text"
@@ -83,7 +74,7 @@ export default function ContactForm({ locale }: { locale?: string }) {
                     required
                 />
             </div>
-            <div className="forml-control w-full">
+            <div className="form-control w-full">
                 <label htmlFor="email"  className="label"> {t("email")} </label>
                 <input
                     type="email"
@@ -114,7 +105,6 @@ export default function ContactForm({ locale }: { locale?: string }) {
                 <textarea
                     id="message"
                     name="message"
-                    typeof='textarea'
                     className='textarea texarea-bordered w-full'
                     rows={5}
                     value={formData.message}

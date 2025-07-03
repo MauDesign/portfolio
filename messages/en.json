@@ -64,7 +64,9 @@
     "emailholder":"youremail@domain.com",
     "message":"Message",
     "subjectholder":"Message Subject",
-    "submit":"Send"
+    "submit":"Send",
+    "submitting": "Sending...",
+    "succesMessage": "Message succesfully send"
 }
 
 }

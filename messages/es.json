@@ -64,6 +64,8 @@
     "submit":"Enviar",
     "nameholder":"Jhon Doe",
     "emailholder":"youremail@domain.com",
-    "subjectholder":"Asunto del mensaje"
+    "subjectholder":"Asunto del mensaje",
+     "submitting": "Enviando...",
+    "succesMessage": "Mensaje enviado exitosamente"
 }
 }

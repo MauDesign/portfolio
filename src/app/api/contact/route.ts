@@ -8,16 +8,19 @@ export async function POST(request: Request) {
     // Es crucial usar variables de entorno para tus credenciales
     // y no escribirlas directamente en el código.
     const transporter = nodemailer.createTransport({
-      service: 'gmail', // o cualquier otro servicio de email que uses
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT),
+      secure: process.env.SMTP_SECURE === 'true', // true para puerto 465, false para otros
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
       },
     });
 
     const mailOptions = {
-      from: email,
-      to: process.env.EMAIL_USER, // El email que recibirá el mensaje
+      from: `"Tu Portafolio" <${process.env.SMTP_USER}>`, // Es mejor enviar desde un correo verificado
+      replyTo: email, // Para que al responder, le llegue al usuario
+      to: process.env.SMTP_RECIPIENT_EMAIL, // El email que recibirá el mensaje
       subject: `Nuevo mensaje de contacto de ${name}: ${subject}`,
       text: message,
       html: `<p>Has recibido un nuevo mensaje de tu portafolio:</p>
