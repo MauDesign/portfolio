@@ -1,12 +1,9 @@
 import {Locale, useTranslations} from 'next-intl';
 import {use} from 'react';
-import Image from "next/image";
 import Projects from "@/ui/projects/projects";
 import Skills from "@/ui/skills/skills";
 import Contact from "@/ui/contact/contact";
-import Cards from "@/ui/cards/cards";
 import Header from "@/ui/header/header";
-import  Navbar  from "@/ui/navbar/navbar";
 import { setRequestLocale } from 'next-intl/server';
 
 type Props = {

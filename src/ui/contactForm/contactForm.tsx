@@ -5,7 +5,7 @@ import React, { useState, ChangeEvent, } from "react";
 type SubmissionStatus = 'success' | 'error' | null;
 
 
-export default function ContactForm({ locale }: { locale?: string }) {
+export default function ContactForm() {
     const t = useTranslations("ContactForm");
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submissionStatus, setSubmissionStatus] = useState<SubmissionStatus>(null);

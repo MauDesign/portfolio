@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "@/ui/carousel/carousel";
-import Image from "next/image";
+
 
 
 const myCarouselItems = [
