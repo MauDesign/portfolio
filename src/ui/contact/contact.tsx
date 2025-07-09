@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import  ContactForm  from "@/ui/contactForm/contactForm";
 import Image from "next/image";
-import { Locale } from "next-intl";
+
 
 
 

@@ -13,13 +13,11 @@ interface Project {
     href: string;
 }
 
-interface Props {
-    locale: string;
-}
 
 
 
-const Projects = ({ locale }: Props) =>{
+
+const Projects = () => {
     const t = useTranslations("Projects");
     const tp = useTranslations("ProjectsList");
     

@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Navbar from "@/ui/navbar/navbar";
 import { useTranslations } from "next-intl";
-import { img } from "framer-motion/client";
+
 
 export default function Header() {
 const t = useTranslations("HeaderHero");

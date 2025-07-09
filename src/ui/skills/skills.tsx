@@ -3,12 +3,10 @@ import React from 'react';
 import  CardText  from '@/ui/cardstext/cardtext';
 import { useTranslations } from 'next-intl';
 
-interface Props {
-  locale: string;
-}
 
 
-export const Skills = ({ locale }: Props)=>{
+
+export const Skills = ()=>{
   const t = useTranslations("Skills");
     return (
     <section className="py-12">

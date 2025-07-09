@@ -1,6 +1,6 @@
 'use client'
 import { useTranslations } from 'next-intl'
-import React, { useState, ChangeEvent, FormEvent } from "react";
+import React, { useState, ChangeEvent, } from "react";
 
 type SubmissionStatus = 'success' | 'error' | null;
 
