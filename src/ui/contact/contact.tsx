@@ -33,7 +33,7 @@ const Contact = ({locale}: {locale: string} ) => {
                 </div>
                 <div className="column-lg ">
                     <h1 className="text-center text-3xl font-bold">{t("titleForm")}</h1>
-                    <ContactForm locale={locale}/>
+                    <ContactForm />
                 </div>
             </div>
         </div>

@@ -27,11 +27,11 @@ return (
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Header/>
         <div className='max-w-3/4 m-auto'>
-          <Projects locale={locale}/>
+          <Projects />
         </div>
         <div className='w-full bg-gradient-to-r from-teal-200 to-teal-500'>
           <div className='max-w-3/4 m-auto'>
-            <Skills locale={locale}/>
+            <Skills />
           </div>
         </div>
         <Contact locale={locale}/>
