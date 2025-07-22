@@ -1,4 +1,3 @@
-
 import Projects from "@/ui/projects/projects";
 import Skills from "@/ui/skills/skills";
 import Contact from "@/ui/contact/contact";
@@ -7,13 +6,10 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 
 type Props = {
- params: { locale: string };
+  params: { locale: string };
 };
 
-export async function generateMetadata(props: Props): Promise<Metadata> {
-  // Accede a 'locale' dentro del cuerpo de la función
-  const { locale } = props.params;
-
+export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   // Leer traducciones desde el servidor
   const t = await getTranslations({ locale, namespace: 'HeaderHero' });
   const autor = t('autor');
@@ -48,32 +44,26 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 }
 
 
-export default async function Home ({params}: Props) {
-
-  const { locale } = params;
+export default async function Home({ params: { locale } }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations('Home');
- 
-return (
-   
 
+  return (
     <div className="w-full">
-
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Header />
         <div className='max-w-3/4 m-auto'>
-          <Projects  />
+          <Projects />
         </div>
         <div className='w-full bg-gradient-to-r from-teal-200 to-teal-500'>
           <div className='max-w-3/4 m-auto'>
-            <Skills  />
+            <Skills />
           </div>
         </div>
-        <Contact locale={locale}/>
-       
+        <Contact locale={locale} />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-       <p>All rigths reserved &copy; 2025 Mauricio Casado</p>
+        <p>All rigths reserved &copy; 2025 Mauricio Casado</p>
       </footer>
     </div>
   );
