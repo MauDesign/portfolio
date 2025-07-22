@@ -5,11 +5,11 @@ import Header from "@/ui/header/header";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 
-type Props = {
+export async function generateMetadata({
+  params: { locale }
+}: {
   params: { locale: string };
-};
-
-export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+}): Promise<Metadata> {
   // Leer traducciones desde el servidor
   const t = await getTranslations({ locale, namespace: 'HeaderHero' });
   const autor = t('autor');
@@ -44,7 +44,11 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 }
 
 
-export default async function Home({ params: { locale } }: Props) {
+export default async function Home({
+  params: { locale }
+}: {
+  params: { locale: string };
+}) {
   setRequestLocale(locale);
   const t = await getTranslations('Home');
 
