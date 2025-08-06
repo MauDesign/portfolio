@@ -1,5 +1,4 @@
 import React from "react";
-import { useTranslations } from "next-intl";
 import  ContactForm  from "@/ui/contactForm/contactForm";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";

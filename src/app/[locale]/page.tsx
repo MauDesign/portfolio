@@ -16,7 +16,7 @@ export default function Home ({params}: Props) {
   const {locale} = use(params);
   setRequestLocale(locale);
   
-  const _t= useTranslations('Home');
+  const t= useTranslations('Home');
 
  
 return (
@@ -38,7 +38,7 @@ return (
        
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-       <p>All rigths reserved &copy; 2025 Mauricio Casado</p>
+       <p>{t('copy')} &copy; 2025 Mauricio Casado</p>
       </footer>
     </div>
   );
