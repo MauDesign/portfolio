@@ -36,7 +36,7 @@ export default function MHTN() {
               <div className="carousel w-full">
                 <Carousel items={myCarouselItems} />
               </div>
-"  
+ 
                 
             </div>
             <div className="column">

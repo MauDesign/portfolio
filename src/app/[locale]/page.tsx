@@ -16,7 +16,7 @@ export default function Home ({params}: Props) {
   const {locale} = use(params);
   setRequestLocale(locale);
   
-  const t= useTranslations('Home');
+  const _t= useTranslations('Home');
 
  
 return (
@@ -34,7 +34,7 @@ return (
             <Skills />
           </div>
         </div>
-        <Contact locale={locale}/>
+        <Contact />
        
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

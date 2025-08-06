@@ -1,14 +1,14 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import  ContactForm  from "@/ui/contactForm/contactForm";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
 
+export default async function Contact() { 
 
+     const t = await  getTranslations("Contact");
 
-const Contact = ({locale}: {locale: string} ) => {
-    const t = useTranslations("Contact");
-    
     return(
         <div className="w-full  p-4 mt-0">
             <div className="columns-2 gap-8 m-auto w-3/4 min-h-[300px]">
@@ -39,5 +39,3 @@ const Contact = ({locale}: {locale: string} ) => {
         </div>
     );
 }
-
-export default Contact;
