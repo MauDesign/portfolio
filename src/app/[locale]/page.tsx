@@ -1,18 +1,25 @@
-import {Locale} from 'next-intl';
+
 import Projects from "@/app/ui/projects/projects";
 import Skills from "@/app/ui/skills/skills";
 import Contact from "@/app/ui/contact/contact";
 import Header from "@/app/ui/header/header";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-type Props = {
- params: { locale: Locale };
-};
+interface PageProps {
+  params: Promise<{
+    locale: string;
+  }>;
+  searchParams?: Promise<{
+    [key: string]: string | string[] | undefined;
+  }>;
+}
 
+export default async function Home({ params }: PageProps) {
+  // Await params antes de usar sus propiedades
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
 
-export default async function Home ({ params }: Props) {
-  const { locale } = await params;
-  
+  // Tu función setRequestLocale
   setRequestLocale(locale);
   
   const t = await getTranslations('Home');
