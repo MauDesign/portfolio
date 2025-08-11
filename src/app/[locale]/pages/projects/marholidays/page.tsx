@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "@/ui/carousel/carousel";
+import Carousel from "@/app/ui/carousel/carousel";
 
 
 

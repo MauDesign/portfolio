@@ -1,22 +1,21 @@
-import {Locale, useTranslations} from 'next-intl';
-import {use} from 'react';
-import Projects from "@/ui/projects/projects";
-import Skills from "@/ui/skills/skills";
-import Contact from "@/ui/contact/contact";
-import Header from "@/ui/header/header";
-import { setRequestLocale } from 'next-intl/server';
+import {Locale} from 'next-intl';
+import Projects from "@/app/ui/projects/projects";
+import Skills from "@/app/ui/skills/skills";
+import Contact from "@/app/ui/contact/contact";
+import Header from "@/app/ui/header/header";
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 type Props = {
- params:Promise<{ locale: Locale}>;
+ params: { locale: Locale };
 };
 
 
-export default function Home ({params}: Props) {
-
-  const {locale} = use(params);
+export default async function Home ({ params }: Props) {
+  const { locale } = await params;
+  
   setRequestLocale(locale);
   
-  const t= useTranslations('Home');
+  const t = await getTranslations('Home');
 
  
 return (

@@ -1,5 +1,5 @@
 'use client'
-import Cards from "@/ui/cards/cards";
+import Cards from "@/app/ui/cards/cards";
 import { useTranslations } from 'next-intl';
 
 import React from "react";

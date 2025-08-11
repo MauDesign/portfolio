@@ -1,5 +1,5 @@
 import React from "react";
-import  ContactForm  from "@/ui/contactForm/contactForm";
+import  ContactForm  from "@/app/ui/contactForm/contactForm";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 

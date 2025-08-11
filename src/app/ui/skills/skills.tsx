@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import  CardText  from '@/ui/cardstext/cardtext';
+import  CardText  from '@/app/ui/cardstext/cardtext';
 import { useTranslations } from 'next-intl';
 
 
