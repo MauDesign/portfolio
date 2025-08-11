@@ -4,7 +4,7 @@ import React from "react";
 import Navbar from '@/app/ui/navbar/navbar';
 import { Poiret_One, Montserrat_Alternates} from "next/font/google";
 import "../globals.css";
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import {setRequestLocale } from 'next-intl/server';
 
 
 const poiretone = Poiret_One({
