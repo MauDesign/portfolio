@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { NextIntlClientProvider, hasLocale} from 'next-intl';
+import { NextIntlClientProvider} from 'next-intl';
 import React from "react";
 import Navbar from '@/app/ui/navbar/navbar';
 import { Poiret_One, Montserrat_Alternates} from "next/font/google";
