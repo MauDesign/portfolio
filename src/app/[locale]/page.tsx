@@ -30,7 +30,7 @@ return (
 
     <div className="w-full">
 
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-wrap  gap-[32px] row-start-2 items-center sm:items-start">
         <Header/>
         <div className='max-w-3/4 m-auto'>
           <Projects />

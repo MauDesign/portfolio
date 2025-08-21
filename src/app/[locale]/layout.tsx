@@ -20,6 +20,7 @@ const montserrat = Montserrat_Alternates({
 });
 
 export const metadata: Metadata = {
+   metadataBase: new URL('https://www.mauriciocasado.com'),
   title: "Mauricio Casado - Diseño UX y Consultoria",
   description: "Ayudo a crecer tu negocio desde la creacion de experiencias tecnologicas de alto impacto y desarrollos personalizados.",
   keywords: [
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     title: 'Mauricio Casado - Soluciones Tecnológicas a Medida',
     description: 'Fusionamos tecnología y creatividad para desarrollar software que transforma desafíos en oportunidades.',
     url: 'https://www.mauriciocasado.com', // Reemplaza con tu dominio final
-    siteName: 'Idea.ly',
+    siteName: 'Mauricio Casado',
     images: [
       {
         url: '/img/UX-UIdesign.png', // URL absoluta de tu imagen

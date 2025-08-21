@@ -9,9 +9,9 @@ export default async function Contact() {
      const t = await  getTranslations("Contact");
 
     return(
-        <div className="w-full  p-4 mt-0">
-            <div className="columns-2 gap-8 m-auto w-3/4 min-h-[300px]">
-                <div className="column-lg ">
+        <div className="w-full p-4 mt-0">
+            <div className="flex flex-wrap m-auto w-3/4 ">
+                <div className="lg:w-1/2 sm:w-full grow">
                     <h1 className="text-center text-3xl font-bold">{t("title")}</h1>
                     <div className='w-full flex justify-center items-center mb-5'>
                          
@@ -30,7 +30,7 @@ export default async function Contact() {
                     <p className=" mb-3"><strong>{t("locationCont")}:</strong> Puebla Pue. México</p>
                 
                 </div>
-                <div className="column-lg ">
+                <div className="lg:w-1/2 sm:w-full grow">
                     <h1 className="text-center text-3xl font-bold">{t("titleForm")}</h1>
                     <ContactForm />
                 </div>

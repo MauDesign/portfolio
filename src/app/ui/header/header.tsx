@@ -7,12 +7,12 @@ const t = useTranslations("HeaderHero");
 return( 
 <div className="w-full bg-[url(/img/bg-home.png)] bg-cover bg-no-repeat bg-center mt-2rem pt-5">
    
-    <div className="w-full flex" >
-        <div className="p-10 w-1/2 justify-center items-center flex flex-col">
+    <div className="w-full flex flex-wrap " >
+        <div className="p-20 lg:w-1/2 sm:w-full grow justify-center items-center flex flex-col">
             <h1 className="text-6xl font-Poiret_One">{t("title")} </h1>
             <h3 className="text-3xl font-vmonserrat"><span className="text-[#53f6c7]" >{t("autor")}</span></h3>
         </div>
-        <div className="p-3 w-1/2" >
+        <div className="p-3 lg:w-1/2 sm:w-full grow" >
             <Image 
             src="/img/web_MC_MauricioCasado_2.png"
             width={840}
