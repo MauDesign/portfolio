@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslations } from "next-intl";
 import Carousel from "@/app/ui/carousel/carousel";
 
 
@@ -28,8 +29,9 @@ const myCarouselItems = [
     description: 'Información adicional.',
   },
 ];
-
-export default function MHTN() {    
+export default function HeadMHTNer() {
+const t = useTranslations("MHTN");
+    
     return(
         <div className="columns-2 mt-20 gap-5 w-full m-auto">
             <div className="column">
@@ -41,8 +43,8 @@ export default function MHTN() {
             </div>
             <div className="column">
                 <div className="card w-96 bg-base-100 shadow-xl mt-5 m-auto">
-                    <h1 className="text-3xl">Mar Holidays Travel Network</h1>
-                    <p></p>
+                    <h1 className="text-3xl">{t("title")}</h1>
+                    <p>{t("description")}</p>
                 </div>
             </div>
 

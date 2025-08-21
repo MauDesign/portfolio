@@ -33,7 +33,7 @@ const Projects = () => {
         },
         {
           id: "2",
-          src: "/img/padelpals_MUC_MauricioCasado.jpg", // Nueva imagen de ejemplo 1
+          src: "/img/Padelpals_MUC_MauricioCasado.jpg", // Nueva imagen de ejemplo 1
           alt: "Descripción del Proyecto Ejemplo 1",
           title: tp("tp2"),
           description: tp("descpro2"),
@@ -57,7 +57,7 @@ const Projects = () => {
         }, 
         {
           id: "5",
-          src: "/img/infografias_MC.jpg", // Nueva imagen de ejemplo 3
+          src: "/img/Infografias_MC.jpg", // Nueva imagen de ejemplo 3
           alt: tp("alt5"),
           title: tp("tp5"),
           description: tp("descpro5"),
