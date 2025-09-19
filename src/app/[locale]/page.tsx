@@ -5,6 +5,7 @@ import Contact from "@/app/ui/contact/contact";
 import Header from "@/app/ui/header/header";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
+
 interface PageProps {
   params: Promise<{
     locale: string;

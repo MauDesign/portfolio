@@ -5,6 +5,7 @@ import Navbar from '@/app/ui/navbar/navbar';
 import { Poiret_One, Montserrat_Alternates} from "next/font/google";
 import "../globals.css";
 import {setRequestLocale } from 'next-intl/server';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 
 const poiretone = Poiret_One({
@@ -64,7 +65,7 @@ export default async function LocaleLayout({children, params}: Props) {
   return (
     <html lang={locale}>
       <body className={`${poiretone.variable} ${montserrat.variable} antialiased relative`}>
-        
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID as string} />
         <NextIntlClientProvider>
            <div className='fixed w-full top-0 z-50'>
             <Navbar locale={locale} />
