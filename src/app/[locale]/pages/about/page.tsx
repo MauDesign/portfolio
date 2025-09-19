@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import Timeline from "@/app/ui/timeline/timeline";
-import Carousel from "@/app/ui/carousel/carousel";
 import Image from "next/image";
 
 export default function About() {
