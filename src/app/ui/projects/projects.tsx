@@ -37,7 +37,7 @@ const Projects = () => {
           alt: "Descripción del Proyecto Ejemplo 1",
           title: tp("tp2"),
           description: tp("descpro2"),
-          href: "/projects/ejemplo-2",
+          href: "/pages/projects/padelpals",
         },
         {
           id: "3",

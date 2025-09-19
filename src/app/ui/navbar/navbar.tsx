@@ -20,10 +20,10 @@ const Navbar = ({ locale }: {locale: string}) => {
                         <ul tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><Link href={'/'}>{t("home")}</Link></li>
-                            <li><Link href={`/${locale}/about`}>{t("about")}</Link></li>
-                            <li><Link href={`/${locale}/services`}>{t("services")}</Link></li>
-                            <li><Link href={`/${locale}/portfolio`}>{t("portfolio")}</Link></li>
-                            <li><Link href={`/${locale}/contact`}>{t("contact")}</Link></li>
+                            <li><Link href={'/pages/about'}>{t("about")}</Link></li>
+                            <li><Link href={'/services'}>{t("services")}</Link></li>
+                            <li><Link href={'/portfolio'}>{t("portfolio")}</Link></li>
+                            <li><Link href={'/contact'}>{t("contact")}</Link></li>
                             <li>
                                 <LanguageSwitcher locale={locale} />
                             </li>
@@ -42,10 +42,10 @@ const Navbar = ({ locale }: {locale: string}) => {
                 <div className=' navbar-end w-full hidden lg:flex rounded-sm content-end'>            
                         <ul className='menu menu-horizontal px-1 text-lg'>
                             <li><Link href={'/'}>{t("home")}</Link></li>
-                            <li><Link href={`/${locale}/about`}>{t("about")}</Link></li>
-                            <li><Link href={`/${locale}/services`}>{t("services")}</Link></li>
-                            <li><Link href={`/${locale}/portfolio`}>{t("portfolio")}</Link></li>
-                            <li><Link href={`/${locale}/contact`}>{t("contact")}</Link></li>
+                            <li><Link href={'/pages/about'}>{t("about")}</Link></li>
+                            <li><Link href={'/services'}>{t("services")}</Link></li>
+                            <li><Link href={'/portfolio'}>{t("portfolio")}</Link></li>
+                            <li><Link href={'/contact'}>{t("contact")}</Link></li>
                             <li>
                                 <LanguageSwitcher locale={locale} />
                             </li>

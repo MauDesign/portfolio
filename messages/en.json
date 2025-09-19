@@ -67,7 +67,16 @@
     "submit":"Send",
     "submitting": "Sending...",
     "successMessage": "Message succesfully send"
+},
+ "title":{
+    "subtitle":"",
+    "description":"",
+    "subtitle2":"",
+    "description2":"",
+    "subtitle3":"",
+    "description3":"",
+    "subtitle4":"",
+    "description4":""
 }
-
 }
 

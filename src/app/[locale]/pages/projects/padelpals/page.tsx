@@ -30,7 +30,7 @@ const myCarouselItems = [
   },
 ];
 export default function MHTN() {
-const t = useTranslations("MHTN");
+const t = useTranslations("padelpals");
     
     return(
         <div className="flex flex-wrap w-full  max-h-vh pt-36 m-auto p-5">

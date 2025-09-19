@@ -53,7 +53,7 @@
     "descCont":"Si tienes alguna dude de mi experiencia o servicios ponte en contacto y con gusto te ayudare.",
     "telCont":"Teléfono",
     "emailCont":"Correo",
-    "locationCont":"LocaUbicación",
+    "locationCont":"Ubicación",
     "titleForm":"Mandame un mensaje"
 },
 "ContactForm":{
@@ -65,7 +65,71 @@
     "nameholder":"Jhon Doe",
     "emailholder":"youremail@domain.com",
     "subjectholder":"Asunto del mensaje",
-     "submitting": "Enviando...",
+    "submitting": "Enviando...",
     "successMessage": "Mensaje enviado exitosamente"
+},
+"About":{
+    "title":"Soy Mauricio Casado",
+    "subtitle":"Dieñador y desarrollador Web UX/UI",
+    "description":"Diseñador de Interacción y UX bilingüe (inglés C1), apasionado por crear experiencias digitales intuitivas y atractivas que se alinean con los objetivos de negocio. Convierto datos complejos en decisiones de diseño efectivas, combinando mi experiencia en investigación de usuario, animación y desarrollo web para entregar productos que los usuarios aman.",
+    "subtitle2":"Habilidades destacadas",
+    "description2":"Estoy abierto a nuevas oportunidades donde pueda aplicar mis habilidades para resolver problemas complejos y crear un impacto medible. ¡Conectemos!",
+    "subtitle3":"Experiencia Laboral",
+    "description3":" Diseño y Prototipado: Figma, Adobe XD, Sketch, Illustrator, Photoshop. Animación: After Effects, Cinema 4D. Desarrollo Web: HTML5, CSS3, JavaScript (ES6+), Bootstrap, WordPress, NextJs, ReactJs, Laravel. Análisis: Google Analytics, Hotjar.",
+    "subtitle4":"Diseñador Web",
+    "description4":"Diseño centrado en el usuario: Analicé y diseñé interfaces de usuario intuitivas y atractivas, con el objetivo de brindar una experiencia fluida y agradable para diversos perfiles de usuario. Aseguramiento de la calidad: Implementé pruebas de usabilidad para evaluar la efectividad de las funciones del sistema, garantizando una experiencia de usuario óptima y satisfactoria. Investigación e innovación: Realicé investigaciones exhaustivas para identificar y comprender las necesidades de los usuarios, traduciéndolas en funcionalidades innovadoras que mejoraron la experiencia general del sistema.",
+    "company1":"The Fives hotels"
+}, 
+"Timeline":{
+    "responsabilities":"Responsabilidades",
+    "archivments":"Logros",
+
+    "title":"Diseño web UX/UI",
+    "r-description":"Diseño centrado en el usuario: Analicé y diseñé interfaces de usuario intuitivas y atractivas, con el objetivo de brindar una experiencia fluida y agradable para diversos perfiles de usuario. Aseguramiento de la calidad: Implementé pruebas de usabilidad para evaluar la efectividad de las funciones del sistema, garantizando una experiencia de usuario óptima y satisfactoria. Investigación e innovación: Realicé investigaciones exhaustivas para identificar y comprender las necesidades de los usuarios, traduciéndolas en funcionalidades innovadoras que mejoraron la experiencia general del sistema.",
+    "company1":"The Fives hotels",
+    "fechas":"Julio 2023 - Actualidad",
+    
+    "title2":"Cordinador de deseño",
+    "r-description2":"Diseñar y desarrollar sitios web comerciales en HTML, CSS, JAVASCRIPT y Bootstrap. Rediseñar la interfaz del sistema y elaborar el maquetado en HTML, CSS y Framework Semantic basado en metodología UX. Diseñar el material gráfico para apoyar al equipo de ventas, y elaborar motions graphics mediante la suit de Adobe (Illustrator, Photoshop, After effects, Premier). Editar los videotutoriales y manuales de uso del sistema, así como analizar la información del uso de base de conocimientos para soporte al usuario.",
+    "a-description2":"Implementé una propuesta innovadora que permitió ampliar el uso de la plataforma en distintos dispositivos, mediante el rediseño de la interfaz optimizado para visualizarse en computadora. Logré eficientar en un 30% el proceso de capacitación a nuevos usuarios, con la implementación de videotutoriales de consulta. Creé una nueva presentación de venta de alto impacto basada en infografías y motion graphics, generado mayor interés del prospecto y disminuyendo el tiempo de toma de decisión",
+    "company2":"Plaza en linea",
+    "fechas1":"Diciembre 2018 - Junio 2023",
+
+    "title3":"Project Manager",
+    "r-description3":"Liderar al equipo de programadores para el cumplimiento de KPIs, supervisando la planeación y calendarizacion de los proyectos, así como el diseño de interfaces durante el proceso de desarrollo para garantizar la aplicación de mejores prácticas y sistemas intuitivos. -Supervisar al equipo de diseño para la planeación y desarrollo de las estrategias de marketing digital y redes sociales. -Seleccionar y administrar a los proveedores de servidores web, asegurando su correcto funcionamiento, tanto para el uso interno como para los clientes. -Llevar a cabo las reuniones con clientes para la definir las necesidades de su proyecto y tomar los requerimientos para desarrollo de sistemas personalizados. ",
+    "a-description3":"Creé formatos para la toma de requerimientos en los cuales se acordaban puntualmente los alcances de cada proyecto, eficientando el porceso de desarrollo.  -Implementé una propuesta innovadora que permitió ampliar el uso de los diferentes desarrollos en cualquier dispositivo. -Ejecuté un sistema de escaletas para la revisión de estrategias con los clientes, permitiendo eficientar el proceso de trabajo de manera estructurada.",
+    "company3":"Digitalsoft Mx",
+    "fechas3":"Marzo 2016 - Marzo 2018",
+
+
+    "title4":"Diseñador Multimedia",
+    "r-description4": "Planear y llevar a cabo diseño gráfico para campañas de redes sociales mediante la suite de Adobe (Illustrator, Photoshop, After Effects). -Diseñar y elaborar sitios web para diversos clientes, basados en HTML, CSS, Javascript, Jquery, así como Wordpress. -Elaborar la propuesta de guión, diseño y creación de motion graphics en 2d y 3d, tanto para clientes como para uso interno, mediante suite de Adobe (Illustrator, Photoshop, After Effects).", 
+    "a-description4":"Logré crear comunidades digitales de mínimo 500 participantes en 3 meses, optimizando los costos de inversión en las campañas de redes sociales.",
+     "company4":"Digitalsoft Mx",
+    "fechas4":"Enero 2015 - Febrero 2016"
+
+},
+
+"MHTN":{
+    "title":"Mar Holidays Travel Network",
+    "subtitle":"El Reto: Simplificar la Complejidad",
+    "description":"El reto fue crear una plataforma desde cero que fuera poderosa pero increíblemente fácil de usar. Tras analizar a la competencia, nos enfocamos en simplificar cada proceso para reducir drásticamente la curva de aprendizaje, logrando que los nuevos usuarios se sientan expertos desde el primer momento.",
+    "subtitle2":"Diseño de Experiencia (UX)",
+    "description2":"Mi enfoque fue simplificar radicalmente el flujo de reserva. Rediseñé todo el proceso para convertirlo en una experiencia lineal y guiada, eliminando pasos innecesarios para que reservar fuera más rápido. Para hacerlo posible, introduje herramientas clave como filtros inteligentes que facilitan las búsquedas complejas, comparadores visuales para una toma de decisiones ágil y un dashboard principal que ofrece un control total de las reservas y notificaciones de un solo vistazo.",
+    "subtitle3":"Diseño de Interfaz y Componentes Visuales (UI)",
+    "description3":"Para la interfaz, construí un sistema de diseño desde cero que le diera a la plataforma una identidad visual coherente y escalable. Creé una librería de componentes reutilizables —desde botones hasta tarjetas de información— y definí una paleta de colores y tipografía enfocada en la legibilidad para reducir la fatiga visual. El resultado es una interfaz limpia, con una iconografía universal que guía al usuario de forma natural, haciendo que la navegación se sienta completamente intuitiva.",
+    "subtitle4":"El Resultado: Una Herramienta Potente y Fácil de Usar",
+    "description4":"El resultado fue una herramienta que tuvo un impacto inmediato, transformando por completo la experiencia del usuario. El nuevo diseño no solo modernizó la plataforma, sino que optimizó drásticamente su funcionalidad, permitiendo a los agentes completar reservas en mucho menos tiempo y con una notable disminución de errores. Este proyecto demuestra mi capacidad para convertir sistemas complejos en soluciones exitosas y fluidas, entregando un producto final que es tan eficiente para el negocio como amigable para quien lo usa."
+},
+"padelpals":{
+    "title":"Padelpals, Retes amigos y Padel.",
+    "subtitle":"El Reto: Controla y simplificar la administracion de retas de padel",
+    "description":"Al tener el pasatiempo del padel, se detectó la necesidad de tener una aplicación web y móvil que permita  la administración y captura de datos de juegos de una manera optimizada.",
+    "subtitle2":"Diseño de Experiencia (UX)",
+    "description2":"Tomando como base la creación de partidos y control de resultados, se generó una experiencia en base a un análisis e investigación de mercado se ha hecho todos los diseños de retículas y prototipados para la implementación dentro de la aplicación. Esta se ha planteado en 2 etapas una primera etapa ser una aplicación web enfocada en móvil first y posterior mente la creación de la aplicación nativa. Se ha implementado un sistema de diseño hecho a medida para la aplicación, así como componentes. ",
+    "subtitle3":"Diseño de Interfaz y Componentes Visuales (UI)",
+    "description3":"En este caso se ha creado componente a la medida, de las necesidades, en base a la investigación realizada se han diseñado componentes que ofrecen una experiencia única  en cualquier tipo de pantalla.",
+    "subtitle4":"El Resultado:En proceso de desarrollo",
+    "description4":"El resultado Este proyecto aun se encuentra en proceso de desarrollo, el cual se espera ver la luz en meses próximos para su uso y pruebas  funcionales  con una  mayor cantidad de usuarios."
 }
 }
