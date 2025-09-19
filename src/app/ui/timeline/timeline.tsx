@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 
 import React from "react";
 
-export default function timeline() {
+export default function Timeline() {
     const t = useTranslations("Timeline");
 
     return (
