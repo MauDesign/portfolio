@@ -5,7 +5,7 @@ import Navbar from '@/app/ui/navbar/navbar';
 import { Poiret_One, Montserrat_Alternates} from "next/font/google";
 import "../globals.css";
 import {setRequestLocale } from 'next-intl/server';
-import { GoogleTagManager } from '@next/third-parties/google';
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 
 const poiretone = Poiret_One({
@@ -32,6 +32,85 @@ export const metadata: Metadata = {
     'aplicaciones móviles', 
     'transformación digital', 
     'marketing digital',
+    'Diseño UX/UI',
+    'agencia diseño web',
+    'diseño ui',
+    'diseñador ui',
+    'diseño de experiencia de usuario',
+    'elaboracion de paginas web',
+    'diseñar pagina web online',
+    'diseñadores freelance',
+    'empresas creadoras de paginas web',
+    'paginas web modernas',
+    'presupuesto creacion pagina web',
+    'desarrollo a la medida de software',
+    'diseño grafico web',
+    'diseño de paginas web ecommerce',
+    'pagina web marketing digital',
+    'marketing digital paginas web',
+    'desarrollo de una pagina web',
+    'diseño de páginas web profesionales',
+    'diseño web creativo',
+    'desarrollo software a la medida',
+    'diseño web corporativo',
+    'diseño web y desarrollo web',
+    'programa a medida',
+    'Inteligencia Artifical',
+    'agencia digital creativa',
+    'agencia digital diseño web',
+    'branding pagina web',
+    'desarrollo web y diseño web',
+    'desarrollo web y multimedia',
+    'desarrollo web y programacion',
+    'diseñador experiencia de usuario',
+    'consultoria en diseño',
+    'consultoria en innovacion tecnologica',
+    'consultoria en experiencia de usuario',
+    'consultoria en desarrollo de software',
+        'software development',
+    'technological solutions',
+    'custom software',
+    'web applications',
+    'mobile applications',
+    'digital transformation',
+    'digital marketing',
+    'UX/UI Design',
+    'web design agency',
+    'ui design',
+    'ui designer',
+    'user experience design',
+    'website development',
+    'design website online',
+    'freelance designers',
+    'website creation companies',
+    'modern websites',
+    'website creation budget',
+    'custom software development',
+    'web graphic design',
+    'ecommerce website design',
+    'digital marketing website',
+    'digital marketing websites',
+    'website development',
+    'professional web page design',
+    'creative web design',
+    'custom software development',
+    'corporate web design',
+    'web design and web development',
+    'custom program',
+    'Artificial Intelligence',
+    'creative digital agency',
+    'digital web design agency',
+    'website branding',
+    'web development and web design',
+    'web and multimedia development',
+    'web development and programming',
+    'user experience designer',
+    'design consulting',
+    'technological innovation consulting',
+    'user experience consulting',
+    'software development consulting',
+    'software development',
+    'technological solutions',
     'Mauricio Casado'
   ],
   openGraph: {
@@ -66,6 +145,7 @@ export default async function LocaleLayout({children, params}: Props) {
     <html lang={locale}>
       <body className={`${poiretone.variable} ${montserrat.variable} antialiased relative`}>
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID as string} />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID as string}/>
         <NextIntlClientProvider>
            <div className='fixed w-full top-0 z-50'>
             <Navbar locale={locale} />
