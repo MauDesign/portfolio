@@ -120,7 +120,7 @@ export const metadata: Metadata = {
     siteName: 'Mauricio Casado',
     images: [
       {
-        url: '/img/UX-UIdesign.png', // URL absoluta de tu imagen
+        url: 'https://www.mauriciocasado.com/img/consutoria_mauricio_casado.png', // URL absoluta de tu imagen
         width: 600,
         height: 300,
         alt: 'Diseño UX y UI',
