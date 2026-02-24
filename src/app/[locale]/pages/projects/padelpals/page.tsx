@@ -30,31 +30,31 @@ const myCarouselItems = [
   },
 ];
 export default function MHTN() {
-const t = useTranslations("padelpals");
-    
-    return(
-        <div className="flex flex-wrap w-full  max-h-vh pt-36 m-auto p-5">
-            <div className="w-1/2 p-3">
-              <div className="carousel w-full h-full">
-                <Carousel items={myCarouselItems} />
-              </div>
- 
-                
-            </div>
-            <div className="w-1/2 p-3 pt-0">
-                <div className="card w-full bg-white shadow-xl mt-5 m-auto p-5 text-black ">
-                    <h1 className="text-3xl font-bold">{t("title")}</h1>
-                    <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle")}</h3>
-                    <p>{t("description")}</p>
-                    <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle2")}</h3>
-                    <p>{t("description2")}</p>
-                    <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle3")}</h3>
-                    <p>{t("description3")}</p>
-                    <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle4")}</h3>
-                    <p>{t("description4")}</p>
-                </div>
-            </div>
+  const t = useTranslations("padelpals");
 
+  return (
+    <div className="flex flex-wrap w-full  max-h-vh pt-36 m-auto p-5">
+      <div className="w-1/2 p-3">
+        <div className="carousel w-full h-full rounded-[2.5rem]">
+          <Carousel items={myCarouselItems} />
         </div>
-    )
+
+
+      </div>
+      <div className="w-1/2 p-3 pt-0">
+        <div className="card w-full bg-white shadow-xl mt-5 m-auto p-8 text-black rounded-[2.5rem]">
+          <h1 className="text-3xl font-bold">{t("title")}</h1>
+          <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle")}</h3>
+          <p>{t("description")}</p>
+          <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle2")}</h3>
+          <p>{t("description2")}</p>
+          <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle3")}</h3>
+          <p>{t("description3")}</p>
+          <h3 className="text-xl mt-3 mb-3 font-bold">{t("subtitle4")}</h3>
+          <p>{t("description4")}</p>
+        </div>
+      </div>
+
+    </div>
+  )
 }

@@ -1,82 +1,127 @@
 {
-"Home":{
-    "copy": "All Rights reserved"
-},
-"HeaderHero":{
-    "title": "The essence of UX isn't simply crafting experiences; it's about empathizing with people to create truly unique moments.",
-    "autor": "Mauricio Casado",
-    "frase": "Great things are done by a series of small things brought together.",
-    "f-autor": "Vincent Van Gogh"
-
-},
-"NavbarLinks": {
-    "home":"Home",
-    "about":"About",
-    "services":"Services",
-    "portfolio":"Portfolio",
-    "contact":"Contact"
-},
-"Projects":{
-    "titlep":"Projects"
-},
-"ProjectsList":{
-    "alt1": "Mar Holidays Travel Network",
-    "tp1": "Mar Holidays Travel Network En",
-    "descpro1":"Brought to life a dynamic web platform that simplifies booking hotels, arranging transfers, and discovering unforgettable travel experiences.",
-    "alt2": "Padelpals",
-    "tp2": "Padelpals",
-    "descpro2":"Designed a mobile app dedicated to enhancing the padel match experience through intuitive control and score tracking. This project focused on creating a clean and functional interface for players to effortlessly manage their games.",
-     "alt3": "Web Designe",
-    "tp3": "Web Designe",
-    "descpro3":"",
-     "alt4": "ANDANAC Project Management",
-    "tp4": "ANDANAC Project Management",
-    "descpro4":"",
-    "alt5": "Information Designe",
-    "tp5": "Information Designe",
-    "descpro5":"",
-    "alt6": "Tailored Software Design ",
-    "tp6": "Tailored Software Design ",
-    "descpro6":"Experienced software developer "
-},
-"Skills":{
-     "buttonText":"Learn more",
-    "titleS1":"Ux/UI Design",
-    "descS1":"I design intuitive user experiences and aesthetic user interfaces. My focus is on usability, accessibility, and effective problem-solving through a user-centered design approach.",
-     "titleS2":"Digital Marketing",
-    "descS2":"We accelerate your online growth. Our digital marketing service is designed to help you attract more clients, enhance your brand's visibility, and convert website visitors into sales, leveraging proven strategies across SEO, SEM, social media, and content.",
-    "titleS3":"Digital Transformation Consulting",
-    "descS3":"Accelerate your digital transformation. We offer strategic consulting to help businesses modernize operations, enhance customer engagement, and unlock new value through technology."
-},
-"Contact":{
-    "title":"Contact me",
-    "descCont":"If you have any questions about my experience or services, please get in touch and I'll be happy to help you.",
-    "telCont":"Telephone",
-    "emailCont":"E-mail",
-    "locationCont":"Location",
-    "titleForm":"Send a Message"
-},
-"ContactForm":{
-    "name":"Name",
-    "nameholder":"Jhon Doe",
-    "subject":"Subject",
-    "email":"E-mail",
-    "emailholder":"youremail@domain.com",
-    "message":"Message",
-    "subjectholder":"Message Subject",
-    "submit":"Send",
-    "submitting": "Sending...",
-    "successMessage": "Message succesfully send"
-},
- "title":{
-    "subtitle":"",
-    "description":"",
-    "subtitle2":"",
-    "description2":"",
-    "subtitle3":"",
-    "description3":"",
-    "subtitle4":"",
-    "description4":""
+    "Home": {
+        "copy": "All Rights reserved"
+    },
+    "HeaderHero": {
+        "title": "The essence of UX isn't simply crafting experiences; it's about empathizing with people to create truly unique moments.",
+        "autor": "Mauricio Casado",
+        "frase": "Great things are done by a series of small things brought together.",
+        "f-autor": "Vincent Van Gogh"
+    },
+    "NavbarLinks": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "Projects": {
+        "titlep": "Projects"
+    },
+    "ProjectsList": {
+        "alt1": "Mar Holidays Travel Network",
+        "tp1": "Mar Holidays Travel Network En",
+        "descpro1": "Brought to life a dynamic web platform that simplifies booking hotels, arranging transfers, and discovering unforgettable travel experiences.",
+        "alt2": "Padelpals",
+        "tp2": "Padelpals",
+        "descpro2": "Designed a mobile app dedicated to enhancing the padel match experience through intuitive control and score tracking. This project focused on creating a clean and functional interface for players to effortlessly manage their games.",
+        "alt3": "Web Design",
+        "tp3": "Web Design",
+        "descpro3": "",
+        "alt4": "ANDANAC Project Management",
+        "tp4": "ANDANAC Project Management",
+        "descpro4": "",
+        "alt5": "Information Design",
+        "tp5": "Information Design",
+        "descpro5": "",
+        "alt6": "Tailored Software Design ",
+        "tp6": "Tailored Software Design ",
+        "descpro6": "Experienced software developer "
+    },
+    "Skills": {
+        "buttonText": "Learn more",
+        "titleS1": "Ux/UI Design",
+        "descS1": "I design intuitive user experiences and aesthetic user interfaces. My focus is on usability, accessibility, and effective problem-solving through a user-centered design approach.",
+        "titleS2": "Digital Marketing",
+        "descS2": "We accelerate your online growth. Our digital marketing service is designed to help you attract more clients, enhance your brand's visibility, and convert website visitors into sales, leveraging proven strategies across SEO, SEM, social media, and content.",
+        "titleS3": "Digital Transformation Consulting",
+        "descS3": "Accelerate your digital transformation. We offer strategic consulting to help businesses modernize operations, enhance customer engagement, and unlock new value through technology."
+    },
+    "Contact": {
+        "title": "Contact me",
+        "descCont": "If you have any questions about my experience or services, please get in touch and I'll be happy to help you.",
+        "telCont": "Telephone",
+        "emailCont": "E-mail",
+        "locationCont": "Location",
+        "titleForm": "Send a Message"
+    },
+    "ContactForm": {
+        "name": "Name",
+        "nameholder": "Jhon Doe",
+        "subject": "Subject",
+        "email": "E-mail",
+        "emailholder": "youremail@domain.com",
+        "message": "Message",
+        "subjectholder": "Message Subject",
+        "submit": "Send",
+        "submitting": "Sending...",
+        "successMessage": "Message successfully sent"
+    },
+    "About": {
+        "title": "I'm Mauricio Casado",
+        "subtitle": "Web UX/UI Designer & Developer",
+        "description": "Bilingual (English C1) Interaction and UX Designer, passionate about creating intuitive and engaging digital experiences that align with business goals. I transform complex data into effective design decisions, combining my expertise in user research, animation, and web development to deliver products that users love.",
+        "subtitle2": "Featured Skills",
+        "description2": "I'm open to new opportunities where I can apply my skills to solve complex problems and create a measurable impact. Let's connect!",
+        "subtitle3": "Work Experience",
+        "description3": "Design & Prototyping: Figma, Adobe XD, Sketch, Illustrator, Photoshop. Animation: After Effects, Cinema 4D. Web Development: HTML5, CSS3, JavaScript (ES6+), Bootstrap, WordPress, NextJs, ReactJs, Laravel. Analytics: Google Analytics, Hotjar.",
+        "subtitle4": "Web Designer",
+        "description4": "User-centered design: Analyzed and designed intuitive and attractive user interfaces, aiming to provide a smooth and enjoyable experience for diverse user profiles. Quality assurance: Implemented usability testing to evaluate the effectiveness of system functions, ensuring an optimal and satisfying user experience. Research & innovation: Conducted thorough research to identify and understand user needs, translating them into innovative features that improved the overall system experience.",
+        "company1": "The Fives Hotels"
+    },
+    "Timeline": {
+        "responsabilities": "Responsibilities",
+        "archivments": "Achievements",
+        "title": "Web UX/UI Design",
+        "r-description": "User-centered design: Analyzed and designed intuitive and attractive user interfaces, aiming to provide a smooth and enjoyable experience for diverse user profiles. Quality assurance: Implemented usability testing to evaluate the effectiveness of system functions, ensuring an optimal and satisfying user experience. Research & innovation: Conducted thorough research to identify and understand user needs, translating them into innovative features that improved the overall system experience.",
+        "company1": "The Fives Hotels",
+        "fechas": "Jul 2023 - Nov 2025",
+        "title2": "Design Coordinator",
+        "r-description2": "Design and develop commercial websites using HTML, CSS, JavaScript, and Bootstrap. Redesign the system interface and create HTML, CSS, and Semantic Framework layouts based on UX methodology. Design graphic materials to support the sales team, and create motion graphics using the Adobe Suite (Illustrator, Photoshop, After Effects, Premiere). Edit video tutorials and system user manuals, and analyze knowledge base usage data to support users.",
+        "a-description2": "Implemented an innovative proposal that expanded platform usage across multiple devices by redesigning the interface optimized for desktop viewing. Improved the onboarding process for new users by 30% through the implementation of on-demand video tutorials. Created a new high-impact sales presentation based on infographics and motion graphics, generating greater prospect interest and reducing decision-making time.",
+        "company2": "Plaza en Linea",
+        "fechas1": "Dec 2018 - Jun 2023",
+        "title3": "Project Manager",
+        "r-description3": "Led the development team to meet KPIs, overseeing project planning and scheduling, as well as interface design during the development process to ensure the application of best practices and intuitive systems. Supervised the design team for the planning and development of digital marketing and social media strategies. Selected and managed web server providers, ensuring proper functioning for both internal use and clients. Conducted client meetings to define project needs and gather requirements for custom system development.",
+        "a-description3": "Created requirement-gathering formats that clearly defined the scope of each project, streamlining the development process. Implemented an innovative proposal that expanded usage of various developments across any device. Executed a structured review system for client strategies, enabling a more efficient and organized workflow.",
+        "company3": "Digitalsoft Mx",
+        "fechas3": "Mar 2016 - Mar 2018",
+        "title4": "Multimedia Designer",
+        "r-description4": "Plan and execute graphic design for social media campaigns using the Adobe Suite (Illustrator, Photoshop, After Effects). Design and develop websites for various clients using HTML, CSS, JavaScript, jQuery, and WordPress. Develop scripts, design, and create 2D and 3D motion graphics for both clients and internal use, using the Adobe Suite (Illustrator, Photoshop, After Effects).",
+        "a-description4": "Successfully built digital communities of at least 500 participants within 3 months, optimizing investment costs for social media campaigns.",
+        "company4": "Digitalsoft Mx",
+        "fechas4": "Jan 2015 - Feb 2016"
+    },
+    "MHTN": {
+        "title": "Mar Holidays Travel Network",
+        "subtitle": "The Challenge: Simplifying Complexity",
+        "description": "The challenge was to build a platform from scratch that was powerful yet incredibly easy to use. After analyzing the competition, we focused on simplifying every process to drastically reduce the learning curve, ensuring that new users feel like experts from the very first moment.",
+        "subtitle2": "Experience Design (UX)",
+        "description2": "My approach was to radically simplify the booking flow. I redesigned the entire process to turn it into a linear, guided experience, eliminating unnecessary steps to make booking faster. To make this possible, I introduced key tools such as smart filters to simplify complex searches, visual comparison tools for agile decision-making, and a main dashboard that provides full control over bookings and notifications at a glance.",
+        "subtitle3": "Interface & Visual Component Design (UI)",
+        "description3": "For the interface, I built a design system from scratch to give the platform a coherent and scalable visual identity. I created a library of reusable components—from buttons to information cards—and defined a color palette and typography focused on readability to reduce visual fatigue. The result is a clean interface with universal iconography that naturally guides the user, making navigation feel completely intuitive.",
+        "subtitle4": "The Outcome: A Powerful and Easy-to-Use Tool",
+        "description4": "The result was a tool that had an immediate impact, completely transforming the user experience. The new design not only modernized the platform but also drastically optimized its functionality, allowing agents to complete bookings in much less time with a notable reduction in errors. This project demonstrates my ability to turn complex systems into successful, seamless solutions, delivering a final product that is as efficient for the business as it is user-friendly."
+    },
+    "padelpals": {
+        "title": "Padelpals, Challenge Friends and Padel.",
+        "subtitle": "The Challenge: Control and simplify padel match management",
+        "description": "Having padel as a hobby, the need was identified for a web and mobile application that allows the management and recording of game data in an optimized way.",
+        "subtitle2": "Experience Design (UX)",
+        "description2": "Based on match creation and score control, an experience was developed grounded in market analysis and research. All grid designs and prototypes have been created for implementation within the app. It has been planned in 2 stages: the first being a web application focused on mobile-first, and subsequently the creation of the native application. A custom-built design system has been implemented for the app, along with its components.",
+        "subtitle3": "Interface & Visual Component Design (UI)",
+        "description3": "In this case, custom components have been created to meet the project's needs. Based on the research conducted, components have been designed to offer a unique experience on any type of screen.",
+        "subtitle4": "The Outcome: Currently in Development",
+        "description4": "This project is still in the development phase, and is expected to launch in the coming months for functional testing and use with a larger number of users."
+    }
 }
-}
-

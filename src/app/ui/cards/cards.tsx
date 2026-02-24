@@ -35,7 +35,7 @@ export default function Cards({ src, alt, href, title, description }: CardProps)
   // El 'group' aquí permite que el hover en este div afecte a la imagen (con group-hover:blur-sm)
   // 'overflow-hidden' es importante para que los bordes redondeados se apliquen a la imagen.
   const content = (
-    <div className="w-full relative rounded-md group overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+    <div className="w-full relative rounded-3xl group overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
       {imageElement}
       {/* Superposición de texto que aparece en hover */}
       {(title || description) && (
