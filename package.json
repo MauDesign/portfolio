@@ -14,7 +14,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.16.0",
     "next": "16.1.6",
-    "next-intl": "^4.3.4",
+    "next-intl": "4.8.3",
     "nodemailer": "^7.0.3",
     "react": "19.0.0",
     "react-dom": "19.0.0"
